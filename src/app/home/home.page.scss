@@ -1,0 +1,29 @@
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+ion-list {
+  width: 100%; /* Sesuaikan lebar card sesuai kebutuhan */
+  max-width: 400px; /* Maksimal lebar card */
+}
+
+ion-card {
+  width: 100%; /* Card mengisi seluruh lebar list */
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk tampilan realistis */
+  border-radius: 10px; /* Sudut membulat */
+  transition: transform 0.3s; /* Animasi transformasi */
+}
+
+ion-card:hover {
+  transform: translateY(-5px); /* Efek hover */
+}
+
+ion-card-header {
+  text-align: center; /* Teks berada di tengah */
+  font-size: 1.2em; /* Ukuran font lebih besar */
+  font-weight: bold; /* Font tebal */
+}

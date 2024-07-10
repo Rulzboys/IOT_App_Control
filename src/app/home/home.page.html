@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>AppControl</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="center-content">
+    <ion-list>
+      <ion-item>
+        <ion-card (click)="sendCommand('Nyalakan Lampu Merah')">
+          <ion-card-header>
+            <ion-card-title>Lampu Merah</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-item>
+      <ion-item>
+        <ion-card (click)="sendCommand('Nyalakan Lampu Kuning')">
+          <ion-card-header>
+            <ion-card-title>Lampu Kuning</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-item>
+      <ion-item>
+        <ion-card (click)="sendCommand('Nyalakan Lampu Hijau')">
+          <ion-card-header>
+            <ion-card-title>Lampu Hijau</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-item>
+      <ion-item>
+        <ion-card (click)="sendCommand('Matikan Lampu')">
+          <ion-card-header>
+            <ion-card-title>Matikan Lampu</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
